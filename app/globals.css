@@ -250,6 +250,12 @@ footer h4 {
   text-transform: uppercase;
 }
 
+.projectHeader {
+  margin-bottom: 0;
+  height: auto;
+  padding-top: 20px;
+}
+
 @media ( width >= 768px ) {
   .container {
     width: 768px;

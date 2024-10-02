@@ -1,8 +1,15 @@
-
+import Link from 'next/link'
 export default function Projeler() {
   return (
     <>
       <div className="container">
+      <header className='projectHeader'>
+          <Link href={"/"}><h4>gökhanünlü</h4></Link>
+          <div className="socials">
+              <a target="_blank" href="https://github.com/gokhanunlugh"><img src="/img/github.svg" alt="github link" /></a>
+              <a target="_blank" href="https://www.linkedin.com/in/gökhan-ünlü-800992266"><img src="/img/LinkedIn.svg" alt="linkedin link" /></a>
+            </div>
+        </header>
         <div className="projectsGrid">
           <div className="project">
             <img className="hoverImg" src="/img/advice.png" alt="Project 32" />
